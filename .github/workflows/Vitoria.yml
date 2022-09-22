@@ -21,8 +21,8 @@ jobs:
         name: 'Checkout Repository'
         uses: actions/checkout@v3
         
-id: configurar_node
-       name: 'Configurar Node'
+      - id: configurar_node
+        name: 'Configurar Node'
         uses: actions/setup-node@v3
         with:
           node-version: 16
